@@ -1,0 +1,94 @@
+{
+  "_from": "vue-plyr@^4.0.0",
+  "_id": "vue-plyr@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Fg7SDuLWOBhofMfg5iNt6RHTEd8=",
+  "_location": "/vue-plyr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue-plyr@^4.0.0",
+    "name": "vue-plyr",
+    "escapedName": "vue-plyr",
+    "rawSpec": "^4.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^4.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-plyr/-/vue-plyr-4.0.0.tgz",
+  "_shasum": "160ed20ee2d63818687cc7e0e6236de911d311df",
+  "_spec": "vue-plyr@^4.0.0",
+  "_where": "/Users/kudos/Documents/works/nhk/nhk_space",
+  "author": {
+    "name": "Gabe Dunn",
+    "email": "gabe@redxtech.ca",
+    "url": "https://redxte.ch"
+  },
+  "bugs": {
+    "url": "https://github.com/redxtech/vue-plyr/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "plyr": "^3.3.22"
+  },
+  "deprecated": false,
+  "description": "A set of Vue components for the plyr video & audio player.",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.5",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.5",
+    "@vue/cli-plugin-unit-jest": "^3.0.0-rc.5",
+    "@vue/cli-service": "^3.0.0-rc.5",
+    "@vue/eslint-config-standard": "^3.0.0-rc.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "bili": "^3.1.2",
+    "node-sass": "^4.9.0",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-terser": "^1.0.1",
+    "rollup-plugin-vue": "^4.3.1",
+    "sass-loader": "^7.0.1",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/redxtech/vue-plyr#readme",
+  "jsnext:main": "dist/vue-plyr.es.js",
+  "keywords": [
+    "vue",
+    "plyr",
+    "video",
+    "audio",
+    "youtube",
+    "vimeo",
+    "media",
+    "player",
+    "js",
+    "javascript",
+    "bili"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-plyr.js",
+  "module": "dist/vue-plyr.es.js",
+  "name": "vue-plyr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redxtech/vue-plyr.git"
+  },
+  "scripts": {
+    "build": "bili",
+    "build:demo": "vue-cli-service serve src/demo/build/main.js",
+    "cli-build": "vue-cli-service build --target lib src/index.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve src/demo/main.js",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "version": "4.0.0"
+}
